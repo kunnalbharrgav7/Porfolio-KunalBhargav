@@ -2,8 +2,8 @@ import project1 from "../assets/projects/OnePlus.jpg";
 import project2 from "../assets/projects/portfolio1.png";
 import project3 from "../assets/projects/age&gender.png";
 import { LiaLinkedin } from "react-icons/lia";
-import { BsInstagram, BsYoutube } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
+import { BsYoutube } from "react-icons/bs";
 // import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
@@ -39,6 +39,8 @@ export const PROJECTS = [
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
     technologies: ["HTML", "CSS"],
+    link: "https://github.com/kunnalbharrgav7/Oneplus-clone",
+    name: "click here",
   },
   // {
   //   title: "Task Management App",
@@ -53,6 +55,8 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["REACT", "TAILWIND", "FRAMER MOTION"],
+    link: "https://github.com/kunnalbharrgav7/Porfolio-KunalBhargav",
+    name: "click here",
   },
   {
     title: "Age And Gender Detection",
@@ -60,6 +64,8 @@ export const PROJECTS = [
     description:
       " Developed a machine learning model capable of accurately detecting age and gender from facial images.",
     technologies: [ "Python", "TensorFlow/Keras", "OpenCV"],
+    link: "https://github.com/kunnalbharrgav7/Age-and-Gender-project",
+    name: "click here",
   },
   // {
   //   title: "Blogging Platform",
@@ -87,11 +93,11 @@ export const CONTACT = {
       title: "github",
       href: "https://github.com/kunnalbharrgav7"
       },
-      {
-        img: BsInstagram,
-        title: "instagram",
-        href: "https://www.instagram.com/kunal_bhargav_0007/"
-        },
+      // {
+      //   img: BsInstagram,
+      //   title: "instagram",
+      //   href: "https://www.instagram.com/kunal_bhargav_0007/"
+      //   },
         // {
         //   img: whatsapp,
         //   title: "whatsapp",
