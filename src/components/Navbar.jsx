@@ -2,7 +2,7 @@
 import logo from "../assets/kunalbhargav.png";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
+// import { FaInstagram } from "react-icons/fa";
 // import { FaWhatsapp } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 // import { SocialMedia } from "../constants";
@@ -16,10 +16,9 @@ const Navbar = () => {
     </div>
     <div 
     className="m-8 flex items-center justify-center gap-4 text-2xl">
-      <a href="https://www.linkedin.com/in/kunal-bhargav-1ab85b230/"><FaLinkedin ></FaLinkedin></a>
-      <a href="https://github.com/kunnalbharrgav7"><FaGithub ></FaGithub></a>
-      <a href="https://www.instagram.com/kunal_bhargav_0007/"><FaInstagram ></FaInstagram></a>
-      <a href="https://www.youtube.com/@27_kunalbhargav44"><FaYoutube></FaYoutube></a>
+      <a href="https://www.linkedin.com/in/kunal-bhargav-1ab85b230/" target="_blank"><FaLinkedin ></FaLinkedin></a>
+      <a href="https://github.com/kunnalbharrgav7" target="_blank"><FaGithub ></FaGithub></a>
+      <a href="https://www.youtube.com/@27_kunalbhargav44" target="_blank"><FaYoutube></FaYoutube></a>
       {/* {
         SocialMedia.map((item, index) => {
           return (
