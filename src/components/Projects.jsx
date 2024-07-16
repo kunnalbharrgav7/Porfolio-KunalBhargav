@@ -37,6 +37,7 @@ const Projects = () => {
                     {tech}
                   </span>
                 ))}
+                  <a href={project.link}>{project.name}</a>
                 </motion.div>
             </div>
         ))}
