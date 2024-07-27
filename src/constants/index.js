@@ -1,6 +1,7 @@
 import project1 from "../assets/projects/OnePlus.jpg";
 import project2 from "../assets/projects/portfolio1.png";
-import project3 from "../assets/projects/age&gender.png";
+import agender from "../assets/projects/agender.jpg";
+import hider from "../assets/projects/hider.jpg";
 import { LiaLinkedin } from "react-icons/lia";
 import { FaGithub } from "react-icons/fa";
 import { BsYoutube } from "react-icons/bs";
@@ -15,7 +16,7 @@ export const EDUCATIONS = [
     year: "2020 - 2025",
     role: "MASTER OF TECHNOLOGY",
     name: `INTERNATIONAL INSTITUTE OF PROFESSIONAL STUDIES - DEVI AHILYA VISHWAVIDYALAYA, INDORE, M.P.`,
-    percentage: `CGPA - 7.70`,
+    percentage: `CGPA - 7.68`,
   },
   {
     year: "2020",
@@ -60,11 +61,20 @@ export const PROJECTS = [
   },
   {
     title: "Age And Gender Detection",
-    image: project3,
+    image: agender,
     description:
       " Developed a machine learning model capable of accurately detecting age and gender from facial images.",
     technologies: [ "Python", "TensorFlow/Keras", "OpenCV"],
     link: "https://github.com/kunnalbharrgav7/Age-and-Gender-project",
+    name: "click here",
+  },
+  {
+    title: "File Hider",
+    image: hider,
+    description:
+      " Developed a machine learning model capable of accurately detecting age and gender from facial images.",
+    technologies: [ "JAVA", "MYSQL", "JDBC"],
+    link: "https://github.com/kunnalbharrgav7/File_Hider",
     name: "click here",
   },
   // {
