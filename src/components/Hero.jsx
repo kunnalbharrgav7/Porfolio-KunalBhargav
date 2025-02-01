@@ -1,5 +1,5 @@
 // import React from 'react'
-import profilePic from "../assets/kunalbhargavprofile.jpg";
+import profilePic from "../assets/PHOTO_KB.jpg";
 import { motion } from "framer-motion";
 
 const container = (delay) => ({
@@ -43,7 +43,7 @@ const Hero = () => {
                 // variants={container(0.3)}
                 // initial="hidden"
                 // animate="visible"
-                style={{ width: 400 , height: 450 }} src={profilePic} alt="Kunal Bhargav" />
+                style={{ width: 475 , height: 475 }} src={profilePic} alt="Kunal Bhargav" />
           </div>
         </div>
       </div>
